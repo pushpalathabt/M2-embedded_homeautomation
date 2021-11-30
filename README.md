@@ -1,2 +1,2 @@
 # M2-embedded_homeautomation
-Home automation make r home smarter
+Home automation make r home smarter & life easier.
