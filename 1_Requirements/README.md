@@ -4,16 +4,16 @@
 
  ## INTRODUCTION
  Home automation, often referred to as domotics is building automation for a home, called a
-smart home or smart house. The scope of Smarthome  is no more limited to just controlling
-lights and heaters, it has spread its domain to the world of smart devices including TV, Laptop,
-Tabs etc. and even automated pet feeding machines. With the rapid increase in usage and reliance
-on the features of several smart devices, the need for interconnecting them has become genuine.
-As it is said,’ Necessity is the mother of invention’, working towards home automation has
-become a new accepted challenge. 
+smart home or smart house. The purpose of this  project is to develop a system for controlling common home electrical devices using wireless to enable direct control.
+Commonly, home automation software gives the user access to an interface to the home automation system by attaching a home automation computer to the wireless network. 
+This project report entitled as “Home Automation Using RF” gives a detailed description of home automation in general and practical implementation done by us in this project.
+We have covered around some basic most needed modules which are in general required for every household. Further this report describes each of the modules used while making 
+this project, and also a description of each and every step of their construction is given. These modules cover Lighting control of the house, curtain control, Fan control,
+gate contol and security control of outer portion of house. All needed components and equipments are listed with their cost analysis and a short description of cost effective implementation is given for normal household. Moving on further a brief knowledge future enhancements is also provided in order to upgrade this project to higher level.
 
 
 ## RESEARCH
-Smarthome  system makes the operations of various home appliances more convenient
+Home automation  system makes the operations of various home appliances more convenient
 and saves energy. With the energy saving concept, Smarthome automation or building automation
 makes life very simple nowadays. It involves automatic controlling of all electrical or
 electronic devices in homes or even remotely through wireless communication. Centralized
@@ -59,7 +59,9 @@ Till the cost is not been predicted. we are in the process. Stay connected we wi
 ## Before
 ![smart home pic](https://user-images.githubusercontent.com/75003344/143393133-ab909cef-65e0-4a85-b37d-5a2d0b42cff2.jpg)
 ## After
-![s11](https://user-images.githubusercontent.com/75003344/143389522-b5667a18-e107-429c-9f40-ac7276e52e33.png)
+![image](https://user-images.githubusercontent.com/75003344/144170885-2995e0c2-c589-4fa6-a427-ca0a341c55f6.png)
+
+
 
 # SWOT Analysis
 ## Strength
@@ -96,7 +98,7 @@ Till the cost is not been predicted. we are in the process. Stay connected we wi
 ## High Level Requirements
 | ID | Description | 
 | --- | --- | 
-| HR01 | System should be able to access the applainces |
+| HR01 | System should be able to access the applainces when person in the home |
 | HR02 | User should be able to access the applainces  | 
 | HR03 | System should recognize oned device/applainces | 
 | HR04 | OTP generated verification for user | 
@@ -105,7 +107,7 @@ Till the cost is not been predicted. we are in the process. Stay connected we wi
 ## Low Level Requirement
 | ID | Description | 
 | --- | --- | 
-| LR01 | Only  off device must be given an option to select on | 
+| LR01 | Only if the person inside the home then only device must be on| 
 | LR02 | full list of applainces |
 | LR03 | status of applainces| 
 | LR04 | Present device/applainces must be tracked | 
