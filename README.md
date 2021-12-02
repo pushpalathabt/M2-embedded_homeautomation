@@ -28,3 +28,5 @@ home automation system by attaching a home automation computer to the wireless n
 |--------|---------|
 |![code inspector](https://api.codiga.io/project/30294/score/svg) |![code inspector](https://api.codiga.io/project/30294/status/svg)
 
+## Cpp Check
+[![cppcheck-action-test](https://github.com/pushpalathabt/M2-embedded_homeautomation/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/pushpalathabt/M2-embedded_homeautomation/actions/workflows/c-cpp.yml)
