@@ -1,0 +1,26 @@
+3_Implementation/main.c:15:39: style: Same expression on both sides of '|'. [duplicateExpression]
+ADCSRA=(1<<ADEN)|(1<<ADPS2)|(1<<ADPS1)|(1<<ADPS1)|(1<<ADPS0); //prescaler div factor = 128;
+                                      ^
+3_Implementation/main.c:39:7: style: The scope of the variable 'open' can be reduced. [variableScope]
+  int open,close,pir,pir_sec;
+      ^
+3_Implementation/main.c:39:12: style: The scope of the variable 'close' can be reduced. [variableScope]
+  int open,close,pir,pir_sec;
+           ^
+3_Implementation/main.c:39:18: style: The scope of the variable 'pir' can be reduced. [variableScope]
+  int open,close,pir,pir_sec;
+                 ^
+3_Implementation/main.c:39:22: style: The scope of the variable 'pir_sec' can be reduced. [variableScope]
+  int open,close,pir,pir_sec;
+                     ^
+3_Implementation/main.c:41:7: style: The scope of the variable 'temp' can be reduced. [variableScope]
+  int temp;
+      ^
+3_Implementation/main.c:55:12: style: The scope of the variable 'adc_rslt' can be reduced. [variableScope]
+  uint16_t adc_rslt,adc_rslt1;
+           ^
+3_Implementation/main.c:55:21: style: Unused variable: adc_rslt1 [unusedVariable]
+  uint16_t adc_rslt,adc_rslt1;
+                    ^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
