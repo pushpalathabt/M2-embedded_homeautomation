@@ -14,4 +14,3 @@ This folder conatins all the coding files as well as the resources and testing f
 | inc | Contains header files |
 | src | Contains main source file for compilation |
 | test | Contains unit testing files for all source code & data for testing|
-| unity| Contains unity files|
