@@ -114,6 +114,35 @@ Till the cost is not been predicted. we are in the process. Stay connected we wi
 | LR03 | status of applainces| 
 | LR04 | Present device/applainces must be tracked | 
 
+# Hardware requirement:-
+ATMEL ATMEGA 16 (an AVR based microcontroller)
+PIR sensor –passive infrared sensors
+Stepper motors
+LCD display
+Proximity sensor 
+ Motor driving IC
+Power supply requirements
+Transformers (step down)
+Diode bridges (500 mA,1A)
+Capacitors filter
+Voltage regulators
+Small heat sinks 
+ Master board (PCB) consisting of regular components which subject to change as per the requirements.
+Miscellaneous
+LEDs
+Switches
+Connecting wires
+LDRs
+
+
+# Software specifications:-
+vs code
+Compiler AVR GCC 
+Win AVR loader
+Programming through embedded C
+Proteus simulation software.
+		
+
 
 # High level Design
 ## Use Case Diagram
