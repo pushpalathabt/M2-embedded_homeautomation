@@ -3,7 +3,7 @@ Circuit : new.simu
 
 Bill of materials:
 
-I.Ramp Generator
+# I.Ramp Generator
 
 Diodes
 
@@ -44,7 +44,7 @@ Transformer
 
 Step down    (12-0-12)
 
-2.Dimmer Circuit
+## 2.Dimmer Circuit
 
 ICs	
 
@@ -77,7 +77,7 @@ Fuse
 F1              (5A)
 
 
-3.Master board
+## 3.Master board
 
 Microcontroller                                 ATmega32
 
