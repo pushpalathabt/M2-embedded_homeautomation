@@ -174,6 +174,34 @@ Till the cost is not been predicted. we are in the process. Stay connected we wi
 ![image](https://user-images.githubusercontent.com/75003344/144360919-590b2b9c-3f40-4792-93d8-61bc02825ce1.png)
 
 
+# Simulation
+
+# Bill of Materils
+
+
+# Test plan and test output
+
+# HIGH level Test Plan
+
+| Test NO.   |       Description     |  Expected i/p  |  Expected O/P | Actual O/P | Type of test |
+|--------------------|:-------------:|-----------------|---------------|------------|------------|
+| H_01  |      PIR SENSOR      |  SENSING  |  WILL SHOW | SHOWN | Functional |
+| H_02  |     LDR   |  SENSING  |  WILL SHOW | SHOWN | Functional |
+| H_03  |      TEMPARATURE SENSOR  |   SENSING  |  WILL SHOW | SHOWN| Functional|
+
+
+# Test Plan
+
+|  Test ID | Description  | Expected Input  | Expected Output  | Actual Output  | Pass/Fail |
+|---|---|---|---|---|---|
+| TID_01  | Device functions  | function values| ON  |ON| PASS  |
+| TID_02  | Device functions  | function values| ON  |ON| PASS  |
+| TID_03  | Device functions  | function values| ON  |ON| PASS  |
+| TID_04  | Device functions  | function values| ON  |ON| PASS  |
+| TID_05 | Device functions  | function values| ON  |ON| PASS  |
+
+
+# ImagesAndVideos
 
 
 
