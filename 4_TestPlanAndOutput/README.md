@@ -4,9 +4,9 @@
 
 | Test NO.   |       Description     |  Expected i/p  |  Expected O/P | Actual O/P | Type of test |
 |--------------------|:-------------:|-----------------|---------------|------------|------------|
-| H_01  |      User Name      |  DATE ENTRY  |  WILL SHOW | SHOWN | data |
-| H_02  |     mail ID    |  DATE ENTRY  |  WILL SHOW | SHOWN | data |
-| H_03  |      Phone number   |   DATE ENTRY  |  WILL SHOW | SHOWN| data|
+| H_01  |      PIR SENSOR      |  SENSING  |  WILL SHOW | SHOWN | Functional |
+| H_02  |     LDR   |  SENSING  |  WILL SHOW | SHOWN | Functional |
+| H_03  |      TEMPARATURE SENSOR  |   SENSING  |  WILL SHOW | SHOWN| Functional|
 
 
 # Test Plan

@@ -1,26 +1,21 @@
-# M1_application_smarthome
-smart home automation provide smartlife✔ & controll over appliances✌
-
-
-This is a Smart Home application project. This project contains  the device of  like Light, Fan, Door, etc.
-At first the user have to provide the details like first name, last name, email and phone number. After that the user can select the device that they want to ON/OFF.
-
+# M2-embedded_homeautomation
+Home automation make r home smarter & life easier.
 
 
 # Requirements
 
  ## INTRODUCTION
  Home automation, often referred to as domotics is building automation for a home, called a
-smart home or smart house. The scope of Smarthome  is no more limited to just controlling
-lights and heaters, it has spread its domain to the world of smart devices including TV, Laptop,
-Tabs etc. and even automated pet feeding machines. With the rapid increase in usage and reliance
-on the features of several smart devices, the need for interconnecting them has become genuine.
-As it is said,’ Necessity is the mother of invention’, working towards home automation has
-become a new accepted challenge. 
+smart home or smart house. The purpose of this  project is to develop a system for controlling common home electrical devices using wireless to enable direct control.
+Commonly, home automation software gives the user access to an interface to the home automation system by attaching a home automation computer to the wireless network. 
+This project report entitled as “Home Automation Using RF” gives a detailed description of home automation in general and practical implementation done by us in this project.
+We have covered around some basic most needed modules which are in general required for every household. Further this report describes each of the modules used while making 
+this project, and also a description of each and every step of their construction is given. These modules cover Lighting control of the house, curtain control, Fan control,
+gate contol and security control of outer portion of house. All needed components and equipments are listed with their cost analysis and a short description of cost effective implementation is given for normal household. Moving on further a brief knowledge future enhancements is also provided in order to upgrade this project to higher level.
 
 
 ## RESEARCH
-Smarthome  system makes the operations of various home appliances more convenient
+Home automation  system makes the operations of various home appliances more convenient
 and saves energy. With the energy saving concept, Smarthome automation or building automation
 makes life very simple nowadays. It involves automatic controlling of all electrical or
 electronic devices in homes or even remotely through wireless communication. Centralized
@@ -66,7 +61,9 @@ Till the cost is not been predicted. we are in the process. Stay connected we wi
 ## Before
 ![smart home pic](https://user-images.githubusercontent.com/75003344/143393133-ab909cef-65e0-4a85-b37d-5a2d0b42cff2.jpg)
 ## After
-![s11](https://user-images.githubusercontent.com/75003344/143389522-b5667a18-e107-429c-9f40-ac7276e52e33.png)
+![image](https://user-images.githubusercontent.com/75003344/144170885-2995e0c2-c589-4fa6-a427-ca0a341c55f6.png)
+
+
 
 # SWOT Analysis
 ## Strength
@@ -103,7 +100,7 @@ Till the cost is not been predicted. we are in the process. Stay connected we wi
 ## High Level Requirements
 | ID | Description | 
 | --- | --- | 
-| HR01 | System should be able to access the applainces |
+| HR01 | System should be able to access the applainces when person in the home |
 | HR02 | User should be able to access the applainces  | 
 | HR03 | System should recognize oned device/applainces | 
 | HR04 | OTP generated verification for user | 
@@ -112,113 +109,40 @@ Till the cost is not been predicted. we are in the process. Stay connected we wi
 ## Low Level Requirement
 | ID | Description | 
 | --- | --- | 
-| LR01 | Only  off device must be given an option to select on | 
+| LR01 | Only if the person inside the home then only device must be on| 
 | LR02 | full list of applainces |
 | LR03 | status of applainces| 
 | LR04 | Present device/applainces must be tracked | 
 
+
 # High level Design
 ## Use Case Diagram
 
-
-![chart1 (1)](https://user-images.githubusercontent.com/75003344/143061944-92b1a625-316b-4b3b-a050-30e1338efff5.png)
+![M2_1](https://user-images.githubusercontent.com/75003344/144357501-c966bff3-418c-47cf-99ab-6fa46f0efd25.png)
 
 
 
 # Low Level Design
 ## Activity Diagram
+![M1_4](https://user-images.githubusercontent.com/75003344/144357652-d3643594-51de-4ab4-8e5b-1d223a53c0a2.png)
 
-![chart2](https://user-images.githubusercontent.com/75003344/143061936-2f873aa9-a1b9-4fb6-8f5b-a38fb3ee7444.png)
+
 
  # High Level Design
 ## Architecture diagram
 
-![STRUCT](https://user-images.githubusercontent.com/75003344/143063557-7451d36c-ae37-4f1b-871f-f1d2658620e1.png)
+![M2_3](https://user-images.githubusercontent.com/75003344/144357811-b2332525-de74-4d07-bf36-6f9d4db38073.png)
 
 
 # Low level Design
 ## Data Flow Diagram
-
-![DATAFLOW](https://user-images.githubusercontent.com/75003344/143062908-35110b2e-e608-4740-b79e-1a13dae6ecd6.png)
-
-# Implementation
-## Introduction
-This folder conatins all the coding files as well as the resources and testing files neede for proper execution of program
-
-## Instructions to execute
-1. Clone my repository
-2. Go to 3_Implementation folder
-3. Make sure your system meets all software and hardware requirements
-4. Run "make run" command in terminal for main code execution
-5. Run "make run_test" command in terminal for test code execution
-
-| Folder | Description |
-| --- | --- |
-| inc | Contains header files |
-| src | Contains main source file for compilation |
-| test | Contains unit testing files for all source code & data for testing|
-| unity| Contains unity files|
-
-# Test plan and test output
-
-# HIGH level Test Plan
-
-| Test NO.   |       Description     |  Expected i/p  |  Expected O/P | Actual O/P | Type of test |
-|--------------------|:-------------:|-----------------|---------------|------------|------------|
-| H_01  |      User Name      |  DATE ENTRY  |  WILL SHOW | SHOWN | data |
-| H_02  |     mail ID    |  DATE ENTRY  |  WILL SHOW | SHOWN | data |
-| H_03  |      Phone number   |   DATE ENTRY  |  WILL SHOW | SHOWN| data|
-
-
-# Test Plan
-
-|  Test ID | Description  | Expected Input  | Expected Output  | Actual Output  | Pass/Fail |
-|---|---|---|---|---|---|
-| TID_01  | Device functions  | function values| ON  |ON| PASS  |
-| TID_02  | Device functions  | function values| ON  |ON| PASS  |
-| TID_03  | Device functions  | function values| ON  |ON| PASS  |
-| TID_04  | Device functions  | function values| ON  |ON| PASS  |
-| TID_05 | Device functions  | function values| ON  |ON| PASS  |
-
-
-# Images and Videos
-
-# First output after runing makefile
-## User have to give the details 
-
-![p2](https://user-images.githubusercontent.com/75003344/143310161-00286fc6-5052-45ef-a22c-d6beb0e946d8.JPG)
-
-## After that we have choose the device to turn it ON or OFF
-![pp1](https://user-images.githubusercontent.com/75003344/143310167-fe1c4b60-2325-4777-9923-0960df285f2f.JPG)
-
-# Code Badges and Score
-
-## Git Codacy Badge
-
-
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/3c8f9ee11a7a47a39e6711eb12a3147f)](https://www.codacy.com/gh/pushpalathabt/M1_application_smarthome/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pushpalathabt/M1_application_smarthome&amp;utm_campaign=Badge_Grade)
-
-## Code Inspector
-|quality score|project quality|
-|--------|---------|
-|![code inspector](https://api.codiga.io/project/30011/score/svg) |![code inspector](https://api.codiga.io/project/30011/status/svg)
-
-|Build code on linux|Build code on windows|Unit Test|cppcheck|
-|:--:|:--:|:--:|:--:|
-|  [![linux os build](https://github.com/pushpalathabt/M1_application_smarthome/actions/workflows/buildc.yml/badge.svg)](https://github.com/pushpalathabt/M1_application_smarthome/actions/workflows/buildc.yml) |[![windows os build](https://github.com/pushpalathabt/M1_application_smarthome/actions/workflows/w-build.yml/badge.svg)](https://github.com/pushpalathabt/M1_application_smarthome/actions/workflows/w-build.yml)|[![unit testing - unity](https://github.com/pushpalathabt/M1_application_smarthome/actions/workflows/unit.yml/badge.svg)](https://github.com/pushpalathabt/M1_application_smarthome/actions/workflows/unit.yml)|  [![cppcheck-action-test](https://github.com/pushpalathabt/M1_application_smarthome/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/pushpalathabt/M1_application_smarthome/actions/workflows/cppcheck.yml)   |   |
-
-
-## Integrated Tools to GitHub
-*  [Codacy](https://www.codacy.com/)
-
-## GitHub Actions
-* Build using Make for CI
-* Unit tests with Cunit
-* Static code analysis using cppcheck
-* Dynamic Code analysis using Valgrind
+![M2_2](https://user-images.githubusercontent.com/75003344/144357761-e5d56f04-2252-4262-a669-474424004256.png)
 
 
 
+# BLOCK DIAGRAM
+
+![image](https://user-images.githubusercontent.com/75003344/144360919-590b2b9c-3f40-4792-93d8-61bc02825ce1.png)
 
 
 
